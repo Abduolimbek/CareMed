@@ -1,0 +1,524 @@
+@media (max-width: 1199px) {
+ 
+  .info__content {
+    position: relative;
+    top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .info__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 20px;
+  }
+
+  .info__content {
+    position: relative;
+    top: -25px;
+  }
+
+  .dept__box {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    max-width: 330px;
+    padding: 0;
+  }
+
+  .dept__img img {
+    width: 100%;
+    height: 230px;
+  }
+
+  .dept__name {
+    width: 100%;
+  }
+
+  .dept__card {
+    padding: 0;
+    position: relative;
+    height: 360px;
+    width: 330px;
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  .medicine__btn {
+    position: absolute;
+    bottom: 100px;
+    
+  }
+
+  .medical__team-photo {
+    padding-top: 97px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .medical__team-inner {
+    min-height: 500px;
+    position: relative;
+  }
+
+  .medical__team-btn {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .useful__title {
+    margin-top: 50px;
+  }
+
+  .useful__box2 {
+    margin-top: 98px;
+ }
+
+ .footer__text {
+  padding-top: 95px;
+  }
+
+  .weHelp__card {
+    padding: 50px 40px 89px 40px;
+    background-color: #fff;
+    height: 410px;
+  }
+
+  .news__box-title::after {
+    width: 180px;
+  }
+  
+  .news__search input {
+    width: 225px;
+  }
+}
+
+
+@media (max-width: 992px) {
+
+  .header__top-contents {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header__top-box {
+    max-width: 180px;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    overflow: auto;
+  }
+
+  .header__top-link a{
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .header__top-phone {
+    height: 100%;
+    background-color: #FF0030;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    padding-left: 35px;
+    padding-right: 35px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__content-logo {
+    max-width: 180px;
+    height: 130px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    border-bottom: 5px solid #35D45B;
+    text-align: center;
+    box-shadow: 2px 24px 42px -10px rgba(0,0,0,0.16);
+    z-index: 50;
+  }
+
+  .bg__title h1 {
+    font-size: 56px;
+  }
+
+  .medical__team-photo {
+    display: flex;
+    justify-content: center;
+}
+
+
+  .medical__team-inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .medical__team-photo {
+    padding: 50px;
+  }
+
+  .footer__bottom-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .info__card {
+    margin-bottom: 50px;
+  }
+
+  .info__content {
+    padding-bottom: 0;
+  }
+
+  .weHelp__inner {
+    max-width: 330px;
+    padding-top: 60px;
+    margin: 0 auto;
+  }
+
+  .info2__img img {
+    width: 100%;
+    margin-bottom: 55px;
+  }
+ 
+  .news__search {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+  }
+
+  .contact__form {
+    padding-top: 100px;
+    margin-bottom: 50px;
+  }
+
+}
+
+
+@media (max-width: 767px) { 
+  
+  .header__top {
+    display: none;
+  }
+
+  .navbar-brand.header__content-logo {
+    height: 90px;
+  }
+
+  ul.navbar-nav.ml-auto>li>a {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  ul.navbar-nav.ml-auto {
+    padding-top: 20px;
+  }
+
+  .bg__title h1 {
+    font-size: 36px;
+  }
+
+  .bg__text p {
+    font-size: 13px;
+  }
+
+  .medicine__btn {
+    padding: 0 34px 0 29px;
+    line-height: 41px;
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 25px;
+  }
+
+  .medical__team-btn {
+    padding: 0 34px 0 29px;
+    line-height: 41px;
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 25px;
+  }
+
+  .dept__btn {
+    padding: 0 34px 0 29px;
+    line-height: 41px;
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 25px;
+  }
+
+  .perHealth__btn {
+    padding: 0 34px 0 29px;
+    line-height: 41px;
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+
+  .info2__btn {
+    padding: 0 34px 0 29px;
+    line-height: 41px;
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+
+  .section__title h2 {
+    font-size: 24px;
+  }
+
+  
+  .medical__team-text  {
+    font-size: 13px;
+  }
+
+  .dept__card {
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+    height: 100%;
+    margin-bottom: 30px;
+  }
+
+  .dept__title {
+    margin-bottom: 70px;
+  }
+
+  .services__card {
+    padding: 40px 40px 50px;
+    background-color: #F5F7FA;
+    margin-top: 120px;
+    max-width: 360px;
+    transition: 0.5s;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .weHelp__inner {
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .weHelp__img img {
+    width: 100%;
+    margin-top: 54px;
+  }
+
+  .news__card-content {
+    padding: 35px 30px 40px 44px;
+  }
+
+}
+
+
+@media (max-width: 576px) { 
+
+  .medical__team-photo {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    margin-top: 30px;
+  }
+
+  .medical__team-photo img {
+    width: 100%;
+    height: 100%;
+  }
+ 
+  .dept__title {
+    font-size: 12px;
+    padding: 0 5px;
+  }
+
+  .medicine__btn{
+    padding: 0 25px 0 20px;
+    line-height: 41px;
+    font-size: 12px;
+    font-weight: 900;
+    margin-top: 25px;
+  }
+
+  .medical__team-btn {
+    padding: 0 25px 0 20px;
+    line-height: 41px;
+    font-size: 12px;
+    font-weight: 900;
+    margin-top: 25px;
+  }
+
+  .dept__btn {
+    padding: 0 25px 0 20px;
+    line-height: 41px;
+    font-size: 12px;
+    font-weight: 900;
+    margin-top: 25px;
+  }
+
+  .perHealth__btn {
+    padding: 0 25px 0 20px;
+    line-height: 41px;
+    font-size: 12px;
+    font-weight: 900;
+    margin-top: 25px;
+  }
+
+  
+
+  .freeScreening__btn {
+    padding: 0 25px 0 20px;
+    line-height: 41px;
+    font-size: 12px;
+    font-weight: 900;
+    margin-top: 25px;
+  }
+
+  .medical__team-text {
+    margin-bottom: 80px;
+  }
+
+  
+  .medical__team-btn {
+    margin-top: 20px;
+  }
+
+  .services__title {
+    font-size: 18px;
+  }
+
+  .services__text {
+    font-size: 13px;
+  }
+
+  .perHealth__title {
+    font-size: 28px;
+  }
+
+  .perHealth__btn {
+    padding: 0 30 0 25;
+    font-size: 11px;
+  }
+
+  .useful__box2 {
+    margin-top: 35px;
+  }
+
+  .news__search {
+    display: none;
+  }
+
+  .freeScreening__box-title {
+    padding-top: 126px;
+  }
+
+  .news__card-title {
+    font-size: 25px;
+  }
+} 
+
+
+
+@media (max-width: 380px) {
+ .info__card {
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .info__card p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .info__card h3 {
+    margin-top: 11px;
+    margin-bottom: 10px;
+  }
+
+  .info__card span {
+    font-size: 20px;
+    color: #20D34A;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .dept__card {
+    width: 100%;
+  }
+
+
+
+  .doctor__img {
+    margin: 0 auto;
+    width: 200px;
+    height: 250px;
+  }
+
+  .freeScreening__box-title {
+    font-size: 20px;
+  }
+
+  .news__card-title {
+    font-size: 20px;
+  }
+
+  content {
+    padding: 20px 14px 30px 29px;
+  }
+}
+
+@media (max-width: 320px) {
+  .news__box-title::after {
+    display: none;
+  }
+
+  .freeScreening__btn {
+    padding: 0 10px 0 10px;
+    line-height: 33px;
+    font-size: 12px;
+    font-weight: 900;
+    margin-top: 25px;
+    display: inline-block;
+  }
+
+  .news__card-title {
+    font-size: 25px;
+  }
+}
+
+
+
+@media (max-width: 300px) {
+  .header__content-logo {
+    display: none;
+  }
+
+  .weHelp__card {
+    padding: 50px 40px 89px 40px;
+    background-color: #fff;
+    height: unset;
+  }
+
+  .news__card-content {
+    padding: 18px 8px 22px 23px;
+  }
+}
+
+@media (max-width: 250px) {
+  .doctor__img {
+    margin: 0 auto;
+    width: 150px;
+    height: 200px;
+  }
+}
+
+
+
